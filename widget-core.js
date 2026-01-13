@@ -1455,7 +1455,7 @@
 
         await chatSDK.startChat({
           customContext: {
-            'LoyaltyStatus': { value: 'Gold', isDisplayable: true },
+            //'LoyaltyStatus': { 'value': 'Gold', isDisplayable: true },
             'emailaddress1': { value: email, isDisplayable: true },
             'Name': { value: name, isDisplayable: true }
           }
